@@ -1,0 +1,38 @@
+{
+ "name": "promesse",
+ "description": "Emily's Promise/A+",
+ "version": "1.3.1",
+ "homepage": "https://github.com/flams/emily",
+ "licenses": [{
+  "type":"MIT",
+  "url":"https://raw.github.com/flams/emily/master/LICENSE"
+ }],
+ "files": [
+ 	"module.js",
+ 	"LICENSE",
+ 	"main.js",
+ 	"tests.js"
+ ],
+ "author": "Olivier Scherrer <pode.fr@gmail.com>",
+ "dependencies": {
+  "requirejs": ">=2.0.4",
+  "emily": ">=1.3.1",
+  "promises-aplus-tests": "=1.0.1"
+  },
+ "keywords": ["Promise", "Promise/A+", "Emily"],
+ "repository": {
+  "type": "git",
+  "url": "git@github.com:flams/emily.git"
+ },
+ "bugs": {
+  "url": "https://github.com/flams/emily/issues"
+ },
+ "main":"main.js",
+ "engines": {
+ 	"node":">= 0.8.0"
+ },
+ "scripts": {
+ 	"test": "node tests.js"
+ }
+
+}
